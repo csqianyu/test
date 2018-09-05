@@ -12,14 +12,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-  
-        numLabel:{
-            default:null,
-            type:cc.Label
-        },
-    },
 
-    if else 
+    },
 
     setArrPosition:function(row,col){
         this.row = row;
@@ -30,5 +24,6 @@ cc.Class({
         this.game.maxNum = num//>this.game.maxNum?num:this.game.maxNum;
         this.numLabel.string = num;
     },
+    
     // update (dt) {},
 });
