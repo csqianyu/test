@@ -29,12 +29,14 @@ cc.Class({
         isCal:false,
     },
 
+    edit by chenxing
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad :function() {
         var data1={
             full:[14,4,5,11,12,13,15,1,2,3,6,7,8,9,10,18,17,16],
-            empty:[14,4,5,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0],
+            empty:[15,4,5,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0],
         };
         
         this.tiles = [
