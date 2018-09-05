@@ -19,20 +19,7 @@ cc.Class({
         },
     },
 
-    onLoad: function () {
-        var self = this;
-        this.node.on(cc.Node.EventType.TOUCH_START,function(event){
-            if(self.numLabel.string==""){
-                self.setNum(parseInt(self.game.maxNum)+1,true,false);      
-            }
-            else{
-                self.numLabel.string="";
-            }
-        }, this.node);
-    },
-    start () {
-
-    },
+    if else 
 
     setArrPosition:function(row,col){
         this.row = row;
