@@ -50,7 +50,7 @@ cc.Class({
         this.tileBg.width = cc.winSize.width+50;
         this.tileBg.height = this.tileBg.width-300;
         this.tileBg.setPosition(15-cc.winSize.width/2,15-cc.winSize.width/2);
-  
+        edit by hexuan  
         // 生成初始方块     
         for(var row=0;row<5;row++){
             for(var col =0;col<5;col++){
